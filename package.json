@@ -1,0 +1,36 @@
+{
+  "name": "dsx-core",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "The core framework of Dropbox Solutions Accelerators. This framework contains all needed functionalities to work with Dropbox APIs. It handles authentication, http requests and responses, and all needed endpoints.",
+  "keywords": [
+    "dropbox",
+    "accelerators",
+    "dsx",
+    "core",
+    "framework"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbx-solutions/dsx-core.git"
+  },
+  "homepage": "https://github.com/dbx-solutions/dsx-core#readme",
+  "bugs": {
+    "url": "https://github.com/dbx-solutions/dsx-core/issues"
+  },
+  "author": "Dropbox Solutions Team",
+  "contributors": [
+    "Hussam Hebbo <hussam@dropbox.com>"
+  ],
+  "engines": {
+    "node": ">=0.10.3"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "dropbox": "^10.27.0"
+  }
+}
