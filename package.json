@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dbx-solutions/dsx-core.git"
+    "url": "https://github.com/dbx-solutions/dsx-core.git"
   },
   "homepage": "https://github.com/dbx-solutions/dsx-core#readme",
   "bugs": {
@@ -26,7 +26,7 @@
   "engines": {
     "node": ">=0.10.3"
   },
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
