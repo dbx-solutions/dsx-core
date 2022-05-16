@@ -7,7 +7,7 @@ export async function createFileRequest(dbx, fileRequest) {
 
 export async function createFileRequestBatch(dbx, fileRequests) {
 	const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
-	[...fileRequests].reduce( (p, _, i) => 
+	[...fileRequests].reduce( (p, _, i) =>
 			p.then(() => delay(Math.random() * 1000))
 			 .then(() => createFileRequest(dbx, fileRequests[i]))
 	, Promise.resolve());

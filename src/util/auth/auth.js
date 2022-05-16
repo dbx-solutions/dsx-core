@@ -2,8 +2,8 @@ import * as settings from './constants.js'
 
 export function getAuthUrl(dbxAuth, redirectUri) {
     return dbxAuth.getAuthenticationUrl(
-      redirectUri, 
-      settings.AUTH_STATE, 
+      redirectUri,
+      settings.AUTH_STATE,
       settings.AUTH_TYPE,
       settings.AUTH_TOKEN_ACCESS_TYPE,
       settings.AUTH_SCOPE,

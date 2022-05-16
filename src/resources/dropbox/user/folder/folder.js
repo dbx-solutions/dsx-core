@@ -5,7 +5,7 @@ export async function createFolder(dbx, path, autoRename) {
 	return createdFolder;
 }
 
-export async function createFolderBatch(dbx, paths, autoRename) {		
+export async function createFolderBatch(dbx, paths, autoRename) {
 	const response = await dbx.filesCreateFolderBatch({paths: paths, autorename: autoRename})
 	const createdFolders = response.result;
 
