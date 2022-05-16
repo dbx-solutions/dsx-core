@@ -26,7 +26,7 @@
   "engines": {
     "node": ">=0.10.3"
   },
-  "main": "dsxcore.js",
+  "main": "main.js",
   "dependencies": {
     "dropbox": "^10.27.0"
   },
