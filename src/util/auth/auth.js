@@ -13,5 +13,8 @@ export function issueAuthUrl(dbxAuth, redirectUri) {
 }
 
 export function issueAuthTokenFromCode(dbxAuth, redirectUri, authCode) {
-  return dbxAuth.getAccessTokenFromCode(redirectUri, authCode);
+  const response = dbxAuth.getAccessTokenFromCode(redirectUri, authCode);
+  const authToken = response.result.access_token;
+
+  return authToken;
 }
