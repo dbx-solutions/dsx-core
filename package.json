@@ -1,6 +1,6 @@
 {
   "name": "dsx-core",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "description": "The core framework of Dropbox Solutions Accelerators. This framework contains all needed functionalities to work with Dropbox APIs. It handles authentication, http requests and responses, and all needed endpoints.",
   "keywords": [
