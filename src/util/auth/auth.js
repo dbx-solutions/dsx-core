@@ -1,6 +1,6 @@
 import * as settings from './constants.js'
 
-export function getAuthUrl(dbxAuth, redirectUri) {
+export function issueAuthUrl(dbxAuth, redirectUri) {
     return dbxAuth.getAuthenticationUrl(
       redirectUri,
       settings.AUTH_STATE,
@@ -12,6 +12,6 @@ export function getAuthUrl(dbxAuth, redirectUri) {
     )
 }
 
-export function getAuthTokenFromCode(dbxAuth, redirectUri, authCode) {
+export function issueAuthTokenFromCode(dbxAuth, redirectUri, authCode) {
   return dbxAuth.getAccessTokenFromCode(redirectUri, authCode);
 }
