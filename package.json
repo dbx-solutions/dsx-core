@@ -28,6 +28,7 @@
 	},
 	"main": "main.js",
 	"dependencies": {
+		"@types/node-fetch": "^2.6.12",
 		"dropbox": "^10.27.0"
 	},
 	"scripts": {
